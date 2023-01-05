@@ -1,4 +1,38 @@
-#root {
+.App {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+
+}
+
+.guess-me {
+  width: 400px;
+  height: 400px;
+  margin-bottom: 10px;
+  margin-top: 40px;
+  
+}
+
+button {
+  padding: 4px;
+  font-size: 18px;
+}
+
+button + button{
+  display: inline-block;
+  margin-left: 20px;
+}
+
+.wrong-answer {
+  display: flex;
+  justify-content: center;
+  color: red;
+  font-size: 24px;
+  margin: 10px;
+}
+
+/* #root {
   max-width: 1280px;
   margin: 0 auto;
   padding: 2rem;
@@ -38,4 +72,4 @@
 
 .read-the-docs {
   color: #888;
-}
+} */
